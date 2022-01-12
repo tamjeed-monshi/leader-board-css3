@@ -21,11 +21,26 @@ a {
   padding: 0 36px;
   font-size: 16px;
 }
-i{
-    font-size: 36px;
+i {
+  font-size: 36px;
 }
-#span-2 i{
-    padding: 0 36px;
+#span-2 i {
+  padding: 0 36px;
 }
 
 /* navbar edit end  */
+
+/* section-1 edit start */
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.player{
+  display: flex;
+  align-items: center;
+}
+.player img {
+  width: 56px;
+  height: 56px;
+  
+}
